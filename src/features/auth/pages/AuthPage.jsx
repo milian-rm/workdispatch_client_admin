@@ -30,7 +30,17 @@ const AuthPage = () => {
             Work<span className="text-yellow-400">Dispatch</span>
           </h1>
 
-          <p className="text-gray-400 text-sm">Conectando talento</p>
+          <p className="text-gray-400 text-sm mb-6">Conectando talento</p>
+
+          <div className="grid w-full grid-cols-3 bg-gray-800 border rounded-full border-gray-700">
+            <button class="flex items-center justify-center gap-2 rounded-full bg-yellow-400 px-4 py-2 text-sm font-medium text-black shadow-sm transition">
+               Ingresar
+            </button>
+            <button class="flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm font-medium text-yellow-400 transition">
+               Registrarse
+            </button>
+          </div>
+
         </div>
 
         {/* Card */}
